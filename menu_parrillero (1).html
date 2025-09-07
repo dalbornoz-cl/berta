@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta Restaurant - Fiestas Patrias</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background: url('https://cdn.pixabay.com/photo/2017/01/31/17/44/flag-2027223_1280.png') repeat-y left,
+                  url('https://cdn.pixabay.com/photo/2017/01/31/17/44/flag-2027223_1280.png') repeat-y right,
+                  linear-gradient(180deg, #ffffff 0%, #d52b1e 50%, #0039a6 100%);
+      background-size: 60px auto, 60px auto, cover;
+    }
+    header {
+      background-color: #0039a6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-bottom: 5px solid #d52b1e;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .menu {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .menu h2 {
+      background-color: #d52b1e;
+      color: white;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #0039a6;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .precio {
+      font-weight: bold;
+    }
+    img.producto-img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #d52b1e;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🇨🇱 Carta Parrillero - Fiestas Patrias</h1>
+    <p>¡Sabores de Chile para celebrar en grande!</p>
+  </header>
+
+  <div class="menu">
+    <h2>Bebidas</h2>
+    <table>
+      <tr><th>Imagen</th><th>Producto</th><th>Precio (CLP)</th></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/741/741407.png" class="producto-img"></td><td>Cervezas</td><td class="precio">$2.500 - $3.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1047/1047462.png" class="producto-img"></td><td>Agua</td><td class="precio">$2.500 - $4.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/415/415733.png" class="producto-img"></td><td>Agua sabores</td><td class="precio">$2.500</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" class="producto-img"></td><td>Vaso chicha</td><td class="precio">$2.500 - $3.500</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" class="producto-img"></td><td>Pipeño</td><td class="precio">$3.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1047/1047519.png" class="producto-img"></td><td>Energética Monster</td><td class="precio">$3.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1047/1047514.png" class="producto-img"></td><td>Whisky Johnnie Walker Black</td><td class="precio">$10.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1047/1047514.png" class="producto-img"></td><td>Whisky Johnnie Walker Red</td><td class="precio">$10.000</td></tr>
+    </table>
+
+    <h2>Comidas</h2>
+    <table>
+      <tr><th>Imagen</th><th>Producto</th><th>Precio (CLP)</th></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2553/2553691.png" class="producto-img"></td><td>Choripán</td><td class="precio">$5.000 - $5.500</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2553/2553690.png" class="producto-img"></td><td>Prieta c/agregado</td><td class="precio">$10.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" class="producto-img"></td><td>Pollo c/agregado</td><td class="precio">$15.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2553/2553702.png" class="producto-img"></td><td>Anticucho de cerdo</td><td class="precio">$6.000 - $6.500</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2553/2553702.png" class="producto-img"></td><td>Anticucho de vacuno</td><td class="precio">$9.000 - $10.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/3075/3075971.png" class="producto-img"></td><td>Empanada</td><td class="precio">$5.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1046/1046785.png" class="producto-img"></td><td>Costillar c/agregado</td><td class="precio">$20.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/3075/3075975.png" class="producto-img"></td><td>Papas fritas grandes</td><td class="precio">$7.000 - $10.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1046/1046786.png" class="producto-img"></td><td>Chorrillana</td><td class="precio">$20.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2553/2553697.png" class="producto-img"></td><td>Salchipapas</td><td class="precio">$15.000 - $16.500</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1046/1046774.png" class="producto-img"></td><td>Parrilla al plato (4 personas)</td><td class="precio">$60.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2553/2553687.png" class="producto-img"></td><td>Ensaladas</td><td class="precio">$3.000 - $5.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/3075/3075972.png" class="producto-img"></td><td>7 Nuggets c/papas</td><td class="precio">$9.000 - $10.000</td></tr>
+      <tr><td><img src="https://cdn-icons-png.flaticon.com/512/3075/3075971.png" class="producto-img"></td><td>6 Empanadas de queso</td><td class="precio">$—</td></tr>
+    </table>
+  </div>
+
+  <footer>
+    <p>Restaurant Parrillero Chileno 🇨🇱 - Fiestas Patrias</p>
+  </footer>
+</body>
+</html>
